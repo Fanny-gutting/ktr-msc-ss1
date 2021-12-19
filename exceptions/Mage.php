@@ -7,7 +7,6 @@ class Mage extends Character {
       {
           // Appel au constructeur de la classe mère
           parent::__construct($name, $life, $agility, $strenght, $wit);
-        //   $test = new Movable("heellelele","2","1","1","1" );
       }
 
       public function RPGClass(){
@@ -33,8 +32,6 @@ class Mage extends Character {
             parent::unsheathe();
         }
 }
-
-
 
 $mage = new Mage('', '', '', '', '');
     $mage->setName("Jean-Luc");

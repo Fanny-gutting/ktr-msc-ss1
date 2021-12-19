@@ -103,6 +103,11 @@ abstract class Character implements Movable {
       echo $scream ." <br>" ;
    }
 
+   public function attackClass($weapons)
+      {
+         $this->weapons = $weapons;
+      }
+
    public function unsheathe(string $scabbard = "unsheathes his weapon."){
       echo $scabbard ." <br>" ;
    }
